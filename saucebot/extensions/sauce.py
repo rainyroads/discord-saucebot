@@ -255,7 +255,6 @@ async def _build_sauce_embed(ctx: lightbulb.Context, sauce_result: pysaucenao.Ge
     embed = embeds.base_embed()
     embed.title = sauce_result.title or sauce_result.author_name or "Untitled"
     embed.url = sauce_result.url
-    embed.description = lang('Sauce', 'match_title', {'index': sauce_result.index, 'similarity': sauce_result.similarity})
     embed.set_footer(text=lang('Sauce', 'match_title', {'index': sauce_result.index, 'similarity': sauce_result.similarity}),
                      icon="https://raw.githubusercontent.com/rainyDayDevs/discord-saucebot/master/assets/footer_icon.png")
 
