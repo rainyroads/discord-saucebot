@@ -1,12 +1,25 @@
-- illusionplex
+### Active Patron's
+
 - Alexis
+- Nali
+- Heber 
+- JanJan 
+- SUZUSHIIRO
+- Defolota 
+- zhimin huang
+- Elroid 
+- Justin Whang
+- Ty Newman
+
+### Previous Patron's
+
+- illusionplex
 - Kynesor
 - Hydro08
 - عبدالله الفايز
 - Mexis xD
 - Just a player
 - Joe Young
-- Nali
 - Kratosarnav
 - Theodore Taylor
 - WolfxLotto
@@ -27,13 +40,10 @@
 - fahad Alazmi
 - Sunaori 
 - Agus Gomez Da Silva
-- Heber 
 - Sam 
 - Josiah Wolf
 - Camila Carrasco
-- JanJan 
 - Philip Jackson
-- SUZUSHIIRO
 - Mario
 - AJ Wong
 - the overpoweredginger
@@ -62,7 +72,6 @@
 - ProyectNova
 - Hoovy
 - Josiano dos santos
-- Defolota 
 - Edward Simmons
 - VDD
 - Silverwind48
@@ -71,13 +80,10 @@
 - Tamschi 
 - lkeoa green
 - Billy 
-- zhimin huang
 - FunGame ́s MMD
-- Elroid 
 - Rafael Santiago
 - mízσrє ѕhírαчukí
 - Rushasu
-- Justin Whang
 - Nyabe
 - Rimuru997
 - James P Harris
@@ -94,7 +100,6 @@
 - gaki lamps
 - ATEG03
 - MetalMallard
-- Ty Newman
 - Compsense
 - Patrick Swasey
 - Montblanc Famfrit

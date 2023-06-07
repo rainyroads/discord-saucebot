@@ -40,7 +40,7 @@ believe in this project enough to help fund it.
 
 A full list of our active and previous Patrons can be found in the [PATRONS.md](./PATRONS.md) file.
 
-#### Active Patreon's ($6)
+#### Active Patron's ($6)
 
 - Alexis
 - Nali
