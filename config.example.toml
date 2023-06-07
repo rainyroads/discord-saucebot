@@ -1,6 +1,7 @@
 [saucebot]
 in_dev = false
 log_level = "INFO"
+language = "english"
 
 
 [discord]

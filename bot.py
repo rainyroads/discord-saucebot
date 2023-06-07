@@ -7,7 +7,7 @@ from saucebot.components.config import config
 
 __all__ = ['bot']
 
-_token = config["discord"]["dev"]["token"] if config["bot"]["in_dev"] else config["bot"]["prod"]["token"]
+_token = config["discord"]["dev"]["token"] if config["bot"]["in_dev"] else config["discord"]["prod"]["token"]
 bot = lightbulb.BotApp(_token, intents=hikari.Intents.ALL_UNPRIVILEGED, logs=config['bot']['log_level'])
 
 
