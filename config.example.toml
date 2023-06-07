@@ -1,0 +1,28 @@
+[saucebot]
+in_dev = false
+log_level = "INFO"
+
+
+[discord]
+[discord.prod]
+    token = "..."
+[discord.dev]
+    token = "..."
+
+[database]
+[database.prod]
+    url = "mysql+aiomysql://username:password@localhost:3306/dbname"
+
+[database.dev]
+    url = "mysql+aiomysql://username:password@localhost:3306/dbname"
+
+
+[saucenao]
+token = "..."
+min_similarity = 60.0
+
+
+[sentry]
+dsn = "..."
+enabled = false
+log_in_dev = false
