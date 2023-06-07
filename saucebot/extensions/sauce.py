@@ -28,7 +28,7 @@ sauce_cache = cachetools.TTLCache(maxsize=1024, ttl=3600)
 @sauce_plugin.command()
 @lightbulb.add_cooldown(300.0, 1, lightbulb.UserBucket)
 @lightbulb.add_cooldown(86400.0, 100, lightbulb.GuildBucket)
-@lightbulb.command("sauce", "Look up the source of an image using a specified URL or file upload")
+@lightbulb.command("sauce", "Look up the source of an image using a specified URL or file upload", ephemeral=True)
 @lightbulb.implements(lightbulb.SlashCommandGroup)
 async def sauce():
     ...
