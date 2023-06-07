@@ -11,14 +11,13 @@ from saucebot.components import log, embeds
 from saucebot.components.config import config
 from saucebot.components.helpers import codewrap
 from saucebot.extensions import extensions
+from saucebot.lang.lang import lang
+from saucebot.models.servers import Servers
 
 __all__ = []
 
 
 # Load extensions
-from saucebot.lang.lang import lang
-from saucebot.models.servers import Servers
-
 for ext in extensions:
     bot.load_extensions(ext)
 
