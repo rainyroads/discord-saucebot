@@ -20,7 +20,8 @@ The bot also supports slash commands, which you to look up the source of images 
 /sauce url https://i.redd.it/rqtzjynwx7351.jpg
 ```
 
-![Bot demonstration](https://github.com/rainyDayDevs/discord-saucebot/assets/7929996/198835ac-a341-493d-bb83-01f41ebaa19c)
+![Bot demonstration](https://github.com/rainyDayDevs/discord-saucebot/assets/7929996/803ebe3c-b253-4d17-b757-fdb27c02b2f5)
+
 
 ### Increasing your API limits
 Each Discord server is currently allotted 100 free API queries/day from a shared pool.
