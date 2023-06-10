@@ -15,5 +15,5 @@ else:
     db_url = config["database"]["prod"]["url"]
 
 
-async_engine = create_async_engine(db_url)
+async_engine = create_async_engine(db_url, pool_recycle=300, pool_pre_ping=True)
 Base = declarative_base()
