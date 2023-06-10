@@ -3,9 +3,9 @@ from enum import Enum
 
 import hikari
 
-__all__ = ['Colors', 'base_embed', 'default', 'timeout', 'success', 'error']
-
 from saucebot.lang.lang import lang
+
+__all__ = ['Colors', 'base_embed', 'default', 'timeout', 'success', 'error']
 
 
 class Colors(Enum):

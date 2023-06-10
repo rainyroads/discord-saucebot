@@ -8,13 +8,12 @@ import hikari
 
 from saucebot.components import log
 from saucebot.components.config import config
+from saucebot.components.helpers import escape_markdown
 
 __all__ = ['lang', 'rand_lang']
 
 
 # Set up localization for use elsewhere in the application
-from saucebot.components.helpers import escape_markdown
-
 language = config["bot"]["language"]
 language_config = ConfigParser()
 language_config.read(os.path.join(pathlib.Path(__file__).parent.resolve(), f'{language}.ini'), 'utf-8')
