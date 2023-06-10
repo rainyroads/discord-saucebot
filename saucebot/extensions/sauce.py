@@ -21,7 +21,7 @@ from saucebot.models.servers import Servers
 sauce_plugin = lightbulb.Plugin("SauceNao")
 user_cooldowns = lightbulb.CooldownManager(lambda ctx: lightbulb.UserBucket(300.0, 6))  # 6/5 minutes
 guild_cooldowns = lightbulb.CooldownManager(lambda ctx: lightbulb.GuildBucket(86400.0, 100))  # 100/day
-dm_cooldowns = lightbulb.CooldownManager(lambda ctx: lightbulb.GuildBucket(86400.0, 20))  # 20/day
+dm_cooldowns = lightbulb.CooldownManager(lambda ctx: lightbulb.UserBucket(86400.0, 20))  # 20/day
 sauce_cache = cachetools.TTLCache(maxsize=1024, ttl=3600)
 
 
