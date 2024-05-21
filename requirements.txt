@@ -34,7 +34,7 @@ orjson==3.9.0
 pipdeptree==2.7.1
 pycares==4.3.0
 pycparser==2.21
-PyMySQL==1.0.3
+PyMySQL==1.1.1
 pysaucenao==1.6.2
 python-anilist==1.0.9
 requests==2.31.0
